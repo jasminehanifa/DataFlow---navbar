@@ -12,10 +12,15 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     
+    @IBOutlet weak var phoneLabel: UILabel!
+    
+    var phone: String!
     var name: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         nameLabel.text = name
+        phoneLabel.text = phone
     }
     
 

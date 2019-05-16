@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         if let destination = segue.destination as? HomeViewController{
             //kita set nilai name di HomeViewController ke textfield
             destination.name = fullNameTextField.text
+            destination.phone = phoneTextField.text
         }
     }
     
